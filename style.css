@@ -1,0 +1,70 @@
+.container{
+	width:60%;
+	max-width: 400px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px 3px rgba(77, 74, 74, 0.877);
+	padding-bottom: 20px;
+
+	background-color: rgb(19, 17, 17);
+	}
+
+	#display{
+margin-left: 6px;
+margin-top: 6px;
+background-color: rgb(39, 46, 43);
+margin-bottom: 10px;
+
+border:none;
+border-radius: 5px;
+}
+
+.operators{
+
+	margin-bottom: 10px;
+}
+
+.operators button{
+
+	margin-bottom: 10px;
+	margin-left: 5px;
+	width: 70px;
+
+
+}
+	
+	.digits{display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+	}
+	
+	 button{background-color: rgb(23, 32, 29);
+	border: none;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius:5px;
+	width: 90px;
+	color:rgb(233, 247, 250);
+	box-shadow: 1px 1px 2px 1px rgba(7, 0, 0, 0.877);
+	font-size: 20px;
+	}
+
+#delete{
+	background-color: rgb(185, 87, 87);
+
+}
+
+	#submit{
+
+		background-color: rgb(51, 105, 51);
+	}
+
+	@media screen and (max-width: 700px){
+
+		.container{
+			width: 90%;
+		}
+	}
+		
+	}
